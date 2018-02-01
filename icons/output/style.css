@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Fantasy-Flight-Icons';
-  src:  url('fonts/Fantasy-Flight-Icons.eot?ap7olf');
-  src:  url('fonts/Fantasy-Flight-Icons.eot?ap7olf#iefix') format('embedded-opentype'),
-    url('fonts/Fantasy-Flight-Icons.ttf?ap7olf') format('truetype'),
-    url('fonts/Fantasy-Flight-Icons.woff?ap7olf') format('woff'),
-    url('fonts/Fantasy-Flight-Icons.svg?ap7olf#Fantasy-Flight-Icons') format('svg');
+  src:  url('fonts/Fantasy-Flight-Icons.eot?abahzn');
+  src:  url('fonts/Fantasy-Flight-Icons.eot?abahzn#iefix') format('embedded-opentype'),
+    url('fonts/Fantasy-Flight-Icons.ttf?abahzn') format('truetype'),
+    url('fonts/Fantasy-Flight-Icons.woff?abahzn') format('woff'),
+    url('fonts/Fantasy-Flight-Icons.svg?abahzn#Fantasy-Flight-Icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,33 +24,6 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.ffi-ia-action:before {
-  content: "\e914";
-}
-.ffi-ia-block:before {
-  content: "\e915";
-}
-.ffi-ia-damage:before {
-  content: "\e916";
-}
-.ffi-ia-dodge:before {
-  content: "\e917";
-}
-.ffi-ia-evade:before {
-  content: "\e918";
-}
-.ffi-ia-surge:before {
-  content: "\e919";
-}
-.ffi-swa-accuracy:before {
-  content: "\e91a";
-}
-.ffi-swa-crit:before {
-  content: "\e91b";
-}
-.ffi-swa-hit:before {
-  content: "\e91c";
-}
 .ffi-d6:before {
   content: "\e900";
 }
@@ -87,27 +60,81 @@ i {
 .ffi-grpg-triumph:before {
   content: "\e90b";
 }
-.ffi-swrpg-advantage:before {
+.ffi-ia-action:before {
   content: "\e90c";
 }
-.ffi-swrpg-despair:before {
+.ffi-ia-block:before {
   content: "\e90d";
 }
-.ffi-swrpg-failure:before {
+.ffi-ia-damage:before {
   content: "\e90e";
 }
-.ffi-swrpg-force:before {
+.ffi-ia-dodge:before {
   content: "\e90f";
 }
-.ffi-swrpg-force-outline:before {
+.ffi-ia-evade:before {
   content: "\e910";
 }
-.ffi-swrpg-success:before {
+.ffi-ia-surge:before {
   content: "\e911";
 }
-.ffi-swrpg-threat:before {
+.ffi-swa-accuracy:before {
   content: "\e912";
 }
-.ffi-swrpg-triumph:before {
+.ffi-swa-brace:before {
   content: "\e913";
+}
+.ffi-swa-concentrate:before {
+  content: "\e914";
+}
+.ffi-swa-contain:before {
+  content: "\e915";
+}
+.ffi-swa-crit:before {
+  content: "\e916";
+}
+.ffi-swa-evade:before {
+  content: "\e917";
+}
+.ffi-swa-hit:before {
+  content: "\e918";
+}
+.ffi-swa-navigate:before {
+  content: "\e919";
+}
+.ffi-swa-redirect:before {
+  content: "\e91a";
+}
+.ffi-swa-repair:before {
+  content: "\e91b";
+}
+.ffi-swa-scatter:before {
+  content: "\e91c";
+}
+.ffi-swa-squadron:before {
+  content: "\e91d";
+}
+.ffi-swrpg-advantage:before {
+  content: "\e91e";
+}
+.ffi-swrpg-despair:before {
+  content: "\e91f";
+}
+.ffi-swrpg-failure:before {
+  content: "\e920";
+}
+.ffi-swrpg-force:before {
+  content: "\e921";
+}
+.ffi-swrpg-force-outline:before {
+  content: "\e922";
+}
+.ffi-swrpg-success:before {
+  content: "\e923";
+}
+.ffi-swrpg-threat:before {
+  content: "\e924";
+}
+.ffi-swrpg-triumph:before {
+  content: "\e925";
 }

@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'Fantasy-Flight-Icons';
-  src:  url('#{$icomoon-font-path}/Fantasy-Flight-Icons.eot?ap7olf');
-  src:  url('#{$icomoon-font-path}/Fantasy-Flight-Icons.eot?ap7olf#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/Fantasy-Flight-Icons.ttf?ap7olf') format('truetype'),
-    url('#{$icomoon-font-path}/Fantasy-Flight-Icons.woff?ap7olf') format('woff'),
-    url('#{$icomoon-font-path}/Fantasy-Flight-Icons.svg?ap7olf#Fantasy-Flight-Icons') format('svg');
+  src:  url('#{$icomoon-font-path}/Fantasy-Flight-Icons.eot?abahzn');
+  src:  url('#{$icomoon-font-path}/Fantasy-Flight-Icons.eot?abahzn#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/Fantasy-Flight-Icons.ttf?abahzn') format('truetype'),
+    url('#{$icomoon-font-path}/Fantasy-Flight-Icons.woff?abahzn') format('woff'),
+    url('#{$icomoon-font-path}/Fantasy-Flight-Icons.svg?abahzn#Fantasy-Flight-Icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,51 +26,6 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.ffi-ia-action {
-  &:before {
-    content: $ffi-ia-action;
-  }
-}
-.ffi-ia-block {
-  &:before {
-    content: $ffi-ia-block;
-  }
-}
-.ffi-ia-damage {
-  &:before {
-    content: $ffi-ia-damage;
-  }
-}
-.ffi-ia-dodge {
-  &:before {
-    content: $ffi-ia-dodge;
-  }
-}
-.ffi-ia-evade {
-  &:before {
-    content: $ffi-ia-evade;
-  }
-}
-.ffi-ia-surge {
-  &:before {
-    content: $ffi-ia-surge;
-  }
-}
-.ffi-swa-accuracy {
-  &:before {
-    content: $ffi-swa-accuracy;
-  }
-}
-.ffi-swa-crit {
-  &:before {
-    content: $ffi-swa-crit;
-  }
-}
-.ffi-swa-hit {
-  &:before {
-    content: $ffi-swa-hit;
-  }
-}
 .ffi-d6 {
   &:before {
     content: $ffi-d6;
@@ -129,6 +84,96 @@ i {
 .ffi-grpg-triumph {
   &:before {
     content: $ffi-grpg-triumph;
+  }
+}
+.ffi-ia-action {
+  &:before {
+    content: $ffi-ia-action;
+  }
+}
+.ffi-ia-block {
+  &:before {
+    content: $ffi-ia-block;
+  }
+}
+.ffi-ia-damage {
+  &:before {
+    content: $ffi-ia-damage;
+  }
+}
+.ffi-ia-dodge {
+  &:before {
+    content: $ffi-ia-dodge;
+  }
+}
+.ffi-ia-evade {
+  &:before {
+    content: $ffi-ia-evade;
+  }
+}
+.ffi-ia-surge {
+  &:before {
+    content: $ffi-ia-surge;
+  }
+}
+.ffi-swa-accuracy {
+  &:before {
+    content: $ffi-swa-accuracy;
+  }
+}
+.ffi-swa-brace {
+  &:before {
+    content: $ffi-swa-brace;
+  }
+}
+.ffi-swa-concentrate {
+  &:before {
+    content: $ffi-swa-concentrate;
+  }
+}
+.ffi-swa-contain {
+  &:before {
+    content: $ffi-swa-contain;
+  }
+}
+.ffi-swa-crit {
+  &:before {
+    content: $ffi-swa-crit;
+  }
+}
+.ffi-swa-evade {
+  &:before {
+    content: $ffi-swa-evade;
+  }
+}
+.ffi-swa-hit {
+  &:before {
+    content: $ffi-swa-hit;
+  }
+}
+.ffi-swa-navigate {
+  &:before {
+    content: $ffi-swa-navigate;
+  }
+}
+.ffi-swa-redirect {
+  &:before {
+    content: $ffi-swa-redirect;
+  }
+}
+.ffi-swa-repair {
+  &:before {
+    content: $ffi-swa-repair;
+  }
+}
+.ffi-swa-scatter {
+  &:before {
+    content: $ffi-swa-scatter;
+  }
+}
+.ffi-swa-squadron {
+  &:before {
+    content: $ffi-swa-squadron;
   }
 }
 .ffi-swrpg-advantage {
