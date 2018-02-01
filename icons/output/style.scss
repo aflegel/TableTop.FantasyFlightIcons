@@ -1,0 +1,174 @@
+@import "variables";
+
+@font-face {
+  font-family: 'Fantasy-Flight-Icons';
+  src:  url('#{$icomoon-font-path}/Fantasy-Flight-Icons.eot?ap7olf');
+  src:  url('#{$icomoon-font-path}/Fantasy-Flight-Icons.eot?ap7olf#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/Fantasy-Flight-Icons.ttf?ap7olf') format('truetype'),
+    url('#{$icomoon-font-path}/Fantasy-Flight-Icons.woff?ap7olf') format('woff'),
+    url('#{$icomoon-font-path}/Fantasy-Flight-Icons.svg?ap7olf#Fantasy-Flight-Icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Fantasy-Flight-Icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ffi-ia-action {
+  &:before {
+    content: $ffi-ia-action;
+  }
+}
+.ffi-ia-block {
+  &:before {
+    content: $ffi-ia-block;
+  }
+}
+.ffi-ia-damage {
+  &:before {
+    content: $ffi-ia-damage;
+  }
+}
+.ffi-ia-dodge {
+  &:before {
+    content: $ffi-ia-dodge;
+  }
+}
+.ffi-ia-evade {
+  &:before {
+    content: $ffi-ia-evade;
+  }
+}
+.ffi-ia-surge {
+  &:before {
+    content: $ffi-ia-surge;
+  }
+}
+.ffi-swa-accuracy {
+  &:before {
+    content: $ffi-swa-accuracy;
+  }
+}
+.ffi-swa-crit {
+  &:before {
+    content: $ffi-swa-crit;
+  }
+}
+.ffi-swa-hit {
+  &:before {
+    content: $ffi-swa-hit;
+  }
+}
+.ffi-d6 {
+  &:before {
+    content: $ffi-d6;
+  }
+}
+.ffi-d6-outline {
+  &:before {
+    content: $ffi-d6-outline;
+  }
+}
+.ffi-d8 {
+  &:before {
+    content: $ffi-d8;
+  }
+}
+.ffi-d8-outline {
+  &:before {
+    content: $ffi-d8-outline;
+  }
+}
+.ffi-d12 {
+  &:before {
+    content: $ffi-d12;
+  }
+}
+.ffi-d12-outline {
+  &:before {
+    content: $ffi-d12-outline;
+  }
+}
+.ffi-grpg-advantage {
+  &:before {
+    content: $ffi-grpg-advantage;
+  }
+}
+.ffi-grpg-despair {
+  &:before {
+    content: $ffi-grpg-despair;
+  }
+}
+.ffi-grpg-failure {
+  &:before {
+    content: $ffi-grpg-failure;
+  }
+}
+.ffi-grpg-success {
+  &:before {
+    content: $ffi-grpg-success;
+  }
+}
+.ffi-grpg-threat {
+  &:before {
+    content: $ffi-grpg-threat;
+  }
+}
+.ffi-grpg-triumph {
+  &:before {
+    content: $ffi-grpg-triumph;
+  }
+}
+.ffi-swrpg-advantage {
+  &:before {
+    content: $ffi-swrpg-advantage;
+  }
+}
+.ffi-swrpg-despair {
+  &:before {
+    content: $ffi-swrpg-despair;
+  }
+}
+.ffi-swrpg-failure {
+  &:before {
+    content: $ffi-swrpg-failure;
+  }
+}
+.ffi-swrpg-force {
+  &:before {
+    content: $ffi-swrpg-force;
+  }
+}
+.ffi-swrpg-force-outline {
+  &:before {
+    content: $ffi-swrpg-force-outline;
+  }
+}
+.ffi-swrpg-success {
+  &:before {
+    content: $ffi-swrpg-success;
+  }
+}
+.ffi-swrpg-threat {
+  &:before {
+    content: $ffi-swrpg-threat;
+  }
+}
+.ffi-swrpg-triumph {
+  &:before {
+    content: $ffi-swrpg-triumph;
+  }
+}
+
