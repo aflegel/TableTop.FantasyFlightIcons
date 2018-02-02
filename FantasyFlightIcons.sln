@@ -1,13 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2024
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "icons", "icons\icons.csproj", "{5DB29411-BC8A-4E60-A158-A971F2C2736F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CA0D55F1-59F4-44E2-8E1D-D12E08321BBE}"
 	ProjectSection(SolutionItems) = preProject
 		license.mit.txt = license.mit.txt
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global
