@@ -1,0 +1,18 @@
+{
+	"name": "sw-rpg-icons",
+	"version": "0.1.0",
+	"description": "A webfont containing icons for games such as Edge of the Empire or Imperial Assault.",
+	"license": "MIT",
+	"author": "Alexander Boutin Flegel",
+	"url": "https://github.com/aflegel/FantasyFlightIcons/issues",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/aflegel/FantasyFlightIcons"
+	},
+	"email": "alex.g.flegel@gmail.com",
+	"keywords": [
+		"icon",
+		"star-wars",
+		"fanstasy-flight"
+	]
+}

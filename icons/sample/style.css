@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'Fantasy-Flight-Icons';
-  src:  url('fonts/Fantasy-Flight-Icons.eot?681sk1');
-  src:  url('fonts/Fantasy-Flight-Icons.eot?681sk1#iefix') format('embedded-opentype'),
-    url('fonts/Fantasy-Flight-Icons.ttf?681sk1') format('truetype'),
-    url('fonts/Fantasy-Flight-Icons.woff?681sk1') format('woff'),
-    url('fonts/Fantasy-Flight-Icons.svg?681sk1#Fantasy-Flight-Icons') format('svg');
+  font-family: 'sw-rpg-icons';
+  src:  url('fonts/sw-rpg-icons.eot?681sk1');
+  src:  url('fonts/sw-rpg-icons.eot?681sk1#iefix') format('embedded-opentype'),
+    url('fonts/sw-rpg-icons.ttf?681sk1') format('truetype'),
+    url('fonts/sw-rpg-icons.woff?681sk1') format('woff'),
+    url('fonts/sw-rpg-icons.svg?681sk1#sw-rpg-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 i {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'Fantasy-Flight-Icons' !important;
+  font-family: 'sw-rpg-icons' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;

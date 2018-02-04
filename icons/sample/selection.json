@@ -1586,7 +1586,7 @@
   ],
   "height": 1024,
   "metadata": {
-    "name": "Fantasy-Flight-Icons"
+    "name": "sw-rpg-icons"
   },
   "preferences": {
     "showGlyphs": true,
@@ -1596,7 +1596,7 @@
     "fontPref": {
       "prefix": "ffi-",
       "metadata": {
-        "fontFamily": "Fantasy-Flight-Icons",
+        "fontFamily": "sw-rpg-icons",
         "majorVersion": 1,
         "minorVersion": 3
       },

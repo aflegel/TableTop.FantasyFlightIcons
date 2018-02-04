@@ -2,7 +2,13 @@
 
 This repo contains the neccessary files to build a functional webfont.
 
-Download the compiled webfont [here](https://github.com/aflegel/FantasyFlightIcons/blob/master/icons/output/fantasy-flight-iocns.zip?raw=true).
+### Install or Download
+
+Install via npm
+
+`npm install sw-rpg-icons`
+
+Download the compiled webfont [here](https://github.com/aflegel/FantasyFlightIcons/blob/master/icons/download/sw-rpg-icons.zip?raw=true).
 
 ## Contribtion Guidelines
 
