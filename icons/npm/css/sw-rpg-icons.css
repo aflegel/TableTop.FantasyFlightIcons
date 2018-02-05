@@ -1,10 +1,10 @@
+﻿@charset "UTF-8";
 @font-face {
-	font-family: 'sw-rpg-icons';
-	src: url('../fonts/sw-rpg-icons.eot?681sk1');
-	src: url('../fonts/sw-rpg-icons.eot?681sk1#iefix') format('embedded-opentype'), url('../fonts/sw-rpg-icons.ttf?681sk1') format('truetype'), url('../fonts/sw-rpg-icons.woff?681sk1') format('woff'), url('../fonts/sw-rpg-icons.svg?681sk1#sw-rpg-icons') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
+  font-family: 'sw-rpg-icons';
+  src: url("fonts/sw-rpg-icons.eot?oozqj7");
+  src: url("fonts/sw-rpg-icons.eot?oozqj7#iefix") format("embedded-opentype"), url("fonts/sw-rpg-icons.ttf?oozqj7") format("truetype"), url("fonts/sw-rpg-icons.woff?oozqj7") format("woff"), url("fonts/sw-rpg-icons.svg?oozqj7#sw-rpg-icons") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 
 i {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -15,168 +15,178 @@ i {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  -moz-osx-font-smoothing: grayscale; }
 
 .ffi-d6:before {
-  content: "\e900";
-}
+  content: ""; }
+
 .ffi-d6-outline:before {
-  content: "\e901";
-}
+  content: ""; }
+
 .ffi-d8:before {
-  content: "\e902";
-}
+  content: ""; }
+
 .ffi-d8-outline:before {
-  content: "\e903";
-}
+  content: ""; }
+
 .ffi-d12:before {
-  content: "\e904";
-}
+  content: ""; }
+
 .ffi-d12-outline:before {
-  content: "\e905";
-}
+  content: ""; }
+
 .ffi-grpg-advantage:before {
-  content: "\e906";
-}
+  content: ""; }
+
 .ffi-grpg-despair:before {
-  content: "\e907";
-}
+  content: ""; }
+
 .ffi-grpg-failure:before {
-  content: "\e908";
-}
+  content: ""; }
+
 .ffi-grpg-success:before {
-  content: "\e909";
-}
+  content: ""; }
+
 .ffi-grpg-threat:before {
-  content: "\e90a";
-}
+  content: ""; }
+
 .ffi-grpg-triumph:before {
-  content: "\e90b";
-}
+  content: ""; }
+
 .ffi-ia-action:before {
-  content: "\e90c";
-}
+  content: ""; }
+
 .ffi-ia-block:before {
-  content: "\e90d";
-}
+  content: ""; }
+
 .ffi-ia-damage:before {
-  content: "\e90e";
-}
+  content: ""; }
+
 .ffi-ia-dodge:before {
-  content: "\e90f";
-}
+  content: ""; }
+
 .ffi-ia-evade:before {
-  content: "\e910";
-}
+  content: ""; }
+
 .ffi-ia-insight:before {
-  content: "\e911";
-}
+  content: ""; }
+
 .ffi-ia-melee:before {
-  content: "\e912";
-}
+  content: ""; }
+
 .ffi-ia-strain:before {
-  content: "\e913";
-}
+  content: ""; }
+
 .ffi-ia-strength:before {
-  content: "\e914";
-}
+  content: ""; }
+
 .ffi-ia-surge:before {
-  content: "\e915";
-}
+  content: ""; }
+
 .ffi-ia-tech:before {
-  content: "\e916";
-}
+  content: ""; }
+
 .ffi-imperial:before {
-  content: "\e917";
-}
+  content: ""; }
+
 .ffi-mercinary:before {
-  content: "\e918";
-}
+  content: ""; }
+
 .ffi-rebel:before {
-  content: "\e919";
-}
+  content: ""; }
+
 .ffi-swa-accuracy:before {
-  content: "\e91a";
-}
+  content: ""; }
+
+.ffi-swa-anti-ship:before {
+  content: ""; }
+
+.ffi-swa-anti-squadron:before {
+  content: ""; }
+
 .ffi-swa-bomber:before {
-  content: "\e91b";
-}
+  content: ""; }
+
 .ffi-swa-brace:before {
-  content: "\e91c";
-}
+  content: ""; }
+
 .ffi-swa-concentrate:before {
-  content: "\e91d";
-}
+  content: ""; }
+
 .ffi-swa-contain:before {
-  content: "\e91e";
-}
+  content: ""; }
+
 .ffi-swa-counter:before {
-  content: "\e91f";
-}
+  content: ""; }
+
 .ffi-swa-crit:before {
-  content: "\e920";
-}
+  content: ""; }
+
 .ffi-swa-escort:before {
-  content: "\e921";
-}
+  content: ""; }
+
 .ffi-swa-evade:before {
-  content: "\e922";
-}
+  content: ""; }
+
 .ffi-swa-grit:before {
-  content: "\e923";
-}
+  content: ""; }
+
 .ffi-swa-heavy:before {
-  content: "\e924";
-}
+  content: ""; }
+
 .ffi-swa-hit:before {
-  content: "\e925";
-}
+  content: ""; }
+
+.ffi-swa-hull:before {
+  content: ""; }
+
 .ffi-swa-navigate:before {
-  content: "\e926";
-}
+  content: ""; }
+
 .ffi-swa-redirect:before {
-  content: "\e927";
-}
+  content: ""; }
+
 .ffi-swa-repair:before {
-  content: "\e928";
-}
+  content: ""; }
+
 .ffi-swa-rogue:before {
-  content: "\e929";
-}
+  content: ""; }
+
 .ffi-swa-scatter:before {
-  content: "\e92a";
-}
+  content: ""; }
+
+.ffi-swa-speed:before {
+  content: ""; }
+
 .ffi-swa-squadron:before {
-  content: "\e92b";
-}
+  content: ""; }
+
 .ffi-swa-swarm:before {
-  content: "\e92c";
-}
+  content: ""; }
+
 .ffi-swrpg-advantage:before {
-  content: "\e92d";
-}
+  content: ""; }
+
 .ffi-swrpg-despair:before {
-  content: "\e92e";
-}
+  content: ""; }
+
 .ffi-swrpg-failure:before {
-  content: "\e92f";
-}
+  content: ""; }
+
 .ffi-swrpg-force:before {
-  content: "\e930";
-}
+  content: ""; }
+
 .ffi-swrpg-force-outline:before {
-  content: "\e931";
-}
+  content: ""; }
+
 .ffi-swrpg-success:before {
-  content: "\e932";
-}
+  content: ""; }
+
 .ffi-swrpg-threat:before {
-  content: "\e933";
-}
+  content: ""; }
+
 .ffi-swrpg-triumph:before {
-  content: "\e934";
-}
+  content: ""; }
+

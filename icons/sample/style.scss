@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'sw-rpg-icons';
-  src:  url('#{$base-font-path}/sw-rpg-icons.eot?681sk1');
-  src:  url('#{$base-font-path}/sw-rpg-icons.eot?681sk1#iefix') format('embedded-opentype'),
-    url('#{$base-font-path}/sw-rpg-icons.ttf?681sk1') format('truetype'),
-    url('#{$base-font-path}/sw-rpg-icons.woff?681sk1') format('woff'),
-    url('#{$base-font-path}/sw-rpg-icons.svg?681sk1#sw-rpg-icons') format('svg');
+  src:  url('#{$icomoon-font-path}/sw-rpg-icons.eot?oozqj7');
+  src:  url('#{$icomoon-font-path}/sw-rpg-icons.eot?oozqj7#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/sw-rpg-icons.ttf?oozqj7') format('truetype'),
+    url('#{$icomoon-font-path}/sw-rpg-icons.woff?oozqj7') format('woff'),
+    url('#{$icomoon-font-path}/sw-rpg-icons.svg?oozqj7#sw-rpg-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -161,6 +161,16 @@ i {
     content: $ffi-swa-accuracy;
   }
 }
+.ffi-swa-anti-ship {
+  &:before {
+    content: $ffi-swa-anti-ship;
+  }
+}
+.ffi-swa-anti-squadron {
+  &:before {
+    content: $ffi-swa-anti-squadron;
+  }
+}
 .ffi-swa-bomber {
   &:before {
     content: $ffi-swa-bomber;
@@ -216,6 +226,11 @@ i {
     content: $ffi-swa-hit;
   }
 }
+.ffi-swa-hull {
+  &:before {
+    content: $ffi-swa-hull;
+  }
+}
 .ffi-swa-navigate {
   &:before {
     content: $ffi-swa-navigate;
@@ -239,6 +254,11 @@ i {
 .ffi-swa-scatter {
   &:before {
     content: $ffi-swa-scatter;
+  }
+}
+.ffi-swa-speed {
+  &:before {
+    content: $ffi-swa-speed;
   }
 }
 .ffi-swa-squadron {

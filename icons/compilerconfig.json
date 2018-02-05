@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "npm/css/sw-rpg-colors.css",
+    "inputFile": "npm/css/sw-rpg-colors.scss"
+  },
+  {
+    "outputFile": "npm/css/sw-rpg-icons.css",
+    "inputFile": "npm/css/sw-rpg-icons.scss"
+  }
+]
