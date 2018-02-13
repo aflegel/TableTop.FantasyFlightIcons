@@ -2,8 +2,8 @@
 
 @font-face {
 	font-family: 'sw-rpg-icons';
-	src: url('#{$base-font-path}/sw-rpg-icons.eot?oozqj7');
-	src: url('#{$base-font-path}/sw-rpg-icons.eot?oozqj7#iefix') format('embedded-opentype'), url('#{$base-font-path}/sw-rpg-icons.ttf?oozqj7') format('truetype'), url('#{$base-font-path}/sw-rpg-icons.woff?oozqj7') format('woff'), url('#{$base-font-path}/sw-rpg-icons.svg?oozqj7#sw-rpg-icons') format('svg');
+	src: url('#{$base-font-path}/sw-rpg-icons.eot?32jxyw');
+	src: url('#{$base-font-path}/sw-rpg-icons.eot?32jxyw#iefix') format('embedded-opentype'), url('#{$base-font-path}/sw-rpg-icons.ttf?32jxyw') format('truetype'), url('#{$base-font-path}/sw-rpg-icons.woff?32jxyw') format('woff'), url('#{$base-font-path}/sw-rpg-icons.svg?32jxyw#sw-rpg-icons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -232,6 +232,12 @@ i {
 	}
 }
 
+.ffi-swa-d8 {
+	&:before {
+		content: $ffi-swa-d8;
+	}
+}
+
 .ffi-swa-escort {
 	&:before {
 		content: $ffi-swa-escort;
@@ -298,6 +304,12 @@ i {
 	}
 }
 
+.ffi-swa-shuttle {
+	&:before {
+		content: $ffi-swa-shuttle;
+	}
+}
+
 .ffi-swa-speed {
 	&:before {
 		content: $ffi-swa-speed;
@@ -316,9 +328,45 @@ i {
 	}
 }
 
+.ffi-swa-turn-0 {
+	&:before {
+		content: $ffi-swa-turn-0;
+	}
+}
+
+.ffi-swa-turn-1 {
+	&:before {
+		content: $ffi-swa-turn-1;
+	}
+}
+
+.ffi-swa-turn-2 {
+	&:before {
+		content: $ffi-swa-turn-2;
+	}
+}
+
 .ffi-swrpg-advantage {
 	&:before {
 		content: $ffi-swrpg-advantage;
+	}
+}
+
+.ffi-swrpg-advantage-advantage {
+	&:before {
+		content: $ffi-swrpg-advantage-advantage;
+	}
+}
+
+.ffi-swrpg-advantage-advantage-alternate {
+	&:before {
+		content: $ffi-swrpg-advantage-advantage-alternate;
+	}
+}
+
+.ffi-swrpg-advantage-success {
+	&:before {
+		content: $ffi-swrpg-advantage-success;
 	}
 }
 
@@ -334,6 +382,18 @@ i {
 	}
 }
 
+.ffi-swrpg-failure-failure {
+	&:before {
+		content: $ffi-swrpg-failure-failure;
+	}
+}
+
+.ffi-swrpg-failure-threat {
+	&:before {
+		content: $ffi-swrpg-failure-threat;
+	}
+}
+
 .ffi-swrpg-force {
 	&:before {
 		content: $ffi-swrpg-force;
@@ -346,15 +406,33 @@ i {
 	}
 }
 
+.ffi-swrpg-force-split {
+	&:before {
+		content: $ffi-swrpg-force-split;
+	}
+}
+
 .ffi-swrpg-success {
 	&:before {
 		content: $ffi-swrpg-success;
 	}
 }
 
+.ffi-swrpg-success-success {
+	&:before {
+		content: $ffi-swrpg-success-success;
+	}
+}
+
 .ffi-swrpg-threat {
 	&:before {
 		content: $ffi-swrpg-threat;
+	}
+}
+
+.ffi-swrpg-threat-threat {
+	&:before {
+		content: $ffi-swrpg-threat-threat;
 	}
 }
 

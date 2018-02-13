@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'sw-rpg-icons';
-  src:  url('fonts/sw-rpg-icons.eot?oozqj7');
-  src:  url('fonts/sw-rpg-icons.eot?oozqj7#iefix') format('embedded-opentype'),
-    url('fonts/sw-rpg-icons.ttf?oozqj7') format('truetype'),
-    url('fonts/sw-rpg-icons.woff?oozqj7') format('woff'),
-    url('fonts/sw-rpg-icons.svg?oozqj7#sw-rpg-icons') format('svg');
+  src:  url('fonts/sw-rpg-icons.eot?32jxyw');
+  src:  url('fonts/sw-rpg-icons.eot?32jxyw#iefix') format('embedded-opentype'),
+    url('fonts/sw-rpg-icons.ttf?32jxyw') format('truetype'),
+    url('fonts/sw-rpg-icons.woff?32jxyw') format('woff'),
+    url('fonts/sw-rpg-icons.svg?32jxyw#sw-rpg-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -129,69 +129,108 @@ i {
 .ffi-swa-crit:before {
   content: "\e922";
 }
-.ffi-swa-escort:before {
+.ffi-swa-d8:before {
   content: "\e923";
 }
-.ffi-swa-evade:before {
+.ffi-swa-escort:before {
   content: "\e924";
 }
-.ffi-swa-grit:before {
+.ffi-swa-evade:before {
   content: "\e925";
 }
-.ffi-swa-heavy:before {
+.ffi-swa-grit:before {
   content: "\e926";
 }
-.ffi-swa-hit:before {
+.ffi-swa-heavy:before {
   content: "\e927";
 }
-.ffi-swa-hull:before {
+.ffi-swa-hit:before {
   content: "\e928";
 }
-.ffi-swa-navigate:before {
+.ffi-swa-hull:before {
   content: "\e929";
 }
-.ffi-swa-redirect:before {
+.ffi-swa-navigate:before {
   content: "\e92a";
 }
-.ffi-swa-repair:before {
+.ffi-swa-redirect:before {
   content: "\e92b";
 }
-.ffi-swa-rogue:before {
+.ffi-swa-repair:before {
   content: "\e92c";
 }
-.ffi-swa-scatter:before {
+.ffi-swa-rogue:before {
   content: "\e92d";
 }
-.ffi-swa-speed:before {
+.ffi-swa-scatter:before {
   content: "\e92e";
 }
-.ffi-swa-squadron:before {
+.ffi-swa-shuttle:before {
   content: "\e92f";
 }
-.ffi-swa-swarm:before {
+.ffi-swa-speed:before {
   content: "\e930";
 }
-.ffi-swrpg-advantage:before {
+.ffi-swa-squadron:before {
   content: "\e931";
 }
-.ffi-swrpg-despair:before {
+.ffi-swa-swarm:before {
   content: "\e932";
 }
-.ffi-swrpg-failure:before {
+.ffi-swa-turn-0:before {
   content: "\e933";
 }
-.ffi-swrpg-force:before {
+.ffi-swa-turn-1:before {
   content: "\e934";
 }
-.ffi-swrpg-force-outline:before {
+.ffi-swa-turn-2:before {
   content: "\e935";
 }
-.ffi-swrpg-success:before {
+.ffi-swrpg-advantage:before {
   content: "\e936";
 }
-.ffi-swrpg-threat:before {
+.ffi-swrpg-advantage-advantage:before {
   content: "\e937";
 }
-.ffi-swrpg-triumph:before {
+.ffi-swrpg-advantage-advantage-alternate:before {
   content: "\e938";
+}
+.ffi-swrpg-advantage-success:before {
+  content: "\e939";
+}
+.ffi-swrpg-despair:before {
+  content: "\e93a";
+}
+.ffi-swrpg-failure:before {
+  content: "\e93b";
+}
+.ffi-swrpg-failure-failure:before {
+  content: "\e93c";
+}
+.ffi-swrpg-failure-threat:before {
+  content: "\e93d";
+}
+.ffi-swrpg-force:before {
+  content: "\e93e";
+}
+.ffi-swrpg-force-outline:before {
+  content: "\e93f";
+}
+.ffi-swrpg-force-split:before {
+  content: "\e940";
+}
+.ffi-swrpg-success:before {
+  content: "\e941";
+}
+.ffi-swrpg-success-success:before {
+  content: "\e942";
+}
+.ffi-swrpg-threat:before {
+  content: "\e943";
+}
+.ffi-swrpg-threat-threat:before {
+  content: "\e944";
+}
+.ffi-swrpg-triumph:before {
+  content: "\e945";
 }
