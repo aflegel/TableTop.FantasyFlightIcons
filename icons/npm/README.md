@@ -5,9 +5,11 @@ This webfont includes icons for Star Wars RPG systems "Edge of the Empire", "Age
 ## Useage
 
 #### HTML
-Use an icon element with one of the symbol classes.  Optional colours are set in the sw-rpg-colors css file.
+Use an icon element with one of the symbol classes.  Optional colours are set in the sw-rpg-colors css file.  Now requires the prefix "ffi" to help maintain compatibility with multiple icon sets.
 
-`<i class="ffi-swrpg-threat"></i>`
+`<i class="ffi ffi-swrpg-threat"></i>`
+
+`<i class="ffi ffi-d8 ffi-swrpg-ability-color"></i>`
 
 ## Contributions and Issues
 

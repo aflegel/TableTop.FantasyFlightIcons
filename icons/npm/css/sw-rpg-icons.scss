@@ -8,7 +8,7 @@
 	font-style: normal;
 }
 
-i {
+i .ffi{
 	/* use !important to prevent issues with browser extensions that change fonts */
 	font-family: 'sw-rpg-icons' !important;
 	speak: none;
@@ -22,422 +22,427 @@ i {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.ffi-d6 {
-	&:before {
-		content: $ffi-d6;
-	}
+@function unicode($str) {
+	@return unquote("\"") + $str + unquote("\"");
 }
 
-.ffi-d6-outline {
+.ffi-swrpg-despair {
 	&:before {
-		content: $ffi-d6-outline;
-	}
-}
-
-.ffi-d8 {
-	&:before {
-		content: $ffi-d8;
-	}
-}
-
-.ffi-d8-outline {
-	&:before {
-		content: $ffi-d8-outline;
-	}
-}
-
-.ffi-d12 {
-	&:before {
-		content: $ffi-d12;
-	}
-}
-
-.ffi-d12-outline {
-	&:before {
-		content: $ffi-d12-outline;
-	}
-}
-
-.ffi-grpg-advantage {
-	&:before {
-		content: $ffi-grpg-advantage;
-	}
-}
-
-.ffi-grpg-despair {
-	&:before {
-		content: $ffi-grpg-despair;
-	}
-}
-
-.ffi-grpg-failure {
-	&:before {
-		content: $ffi-grpg-failure;
-	}
-}
-
-.ffi-grpg-success {
-	&:before {
-		content: $ffi-grpg-success;
-	}
-}
-
-.ffi-grpg-threat {
-	&:before {
-		content: $ffi-grpg-threat;
-	}
-}
-
-.ffi-grpg-triumph {
-	&:before {
-		content: $ffi-grpg-triumph;
-	}
-}
-
-.ffi-ia-action {
-	&:before {
-		content: $ffi-ia-action;
-	}
-}
-
-.ffi-ia-block {
-	&:before {
-		content: $ffi-ia-block;
-	}
-}
-
-.ffi-ia-damage {
-	&:before {
-		content: $ffi-ia-damage;
-	}
-}
-
-.ffi-ia-dodge {
-	&:before {
-		content: $ffi-ia-dodge;
-	}
-}
-
-.ffi-ia-evade {
-	&:before {
-		content: $ffi-ia-evade;
-	}
-}
-
-.ffi-ia-insight {
-	&:before {
-		content: $ffi-ia-insight;
-	}
-}
-
-.ffi-ia-melee {
-	&:before {
-		content: $ffi-ia-melee;
-	}
-}
-
-.ffi-ia-strain {
-	&:before {
-		content: $ffi-ia-strain;
-	}
-}
-
-.ffi-ia-strength {
-	&:before {
-		content: $ffi-ia-strength;
-	}
-}
-
-.ffi-ia-surge {
-	&:before {
-		content: $ffi-ia-surge;
-	}
-}
-
-.ffi-ia-tech {
-	&:before {
-		content: $ffi-ia-tech;
-	}
-}
-
-.ffi-imperial {
-	&:before {
-		content: $ffi-imperial;
-	}
-}
-
-.ffi-mercinary {
-	&:before {
-		content: $ffi-mercinary;
-	}
-}
-
-.ffi-rebel {
-	&:before {
-		content: $ffi-rebel;
-	}
-}
-
-.ffi-swa-accuracy {
-	&:before {
-		content: $ffi-swa-accuracy;
-	}
-}
-
-.ffi-swa-anti-ship {
-	&:before {
-		content: $ffi-swa-anti-ship;
-	}
-}
-
-.ffi-swa-anti-squadron {
-	&:before {
-		content: $ffi-swa-anti-squadron;
-	}
-}
-
-.ffi-swa-bomber {
-	&:before {
-		content: $ffi-swa-bomber;
-	}
-}
-
-.ffi-swa-brace {
-	&:before {
-		content: $ffi-swa-brace;
-	}
-}
-
-.ffi-swa-concentrate {
-	&:before {
-		content: $ffi-swa-concentrate;
-	}
-}
-
-.ffi-swa-contain {
-	&:before {
-		content: $ffi-swa-contain;
-	}
-}
-
-.ffi-swa-counter {
-	&:before {
-		content: $ffi-swa-counter;
-	}
-}
-
-.ffi-swa-crit {
-	&:before {
-		content: $ffi-swa-crit;
-	}
-}
-
-.ffi-swa-d8 {
-	&:before {
-		content: $ffi-swa-d8;
-	}
-}
-
-.ffi-swa-escort {
-	&:before {
-		content: $ffi-swa-escort;
-	}
-}
-
-.ffi-swa-evade {
-	&:before {
-		content: $ffi-swa-evade;
-	}
-}
-
-.ffi-swa-grit {
-	&:before {
-		content: $ffi-swa-grit;
-	}
-}
-
-.ffi-swa-heavy {
-	&:before {
-		content: $ffi-swa-heavy;
-	}
-}
-
-.ffi-swa-hit {
-	&:before {
-		content: $ffi-swa-hit;
-	}
-}
-
-.ffi-swa-hull {
-	&:before {
-		content: $ffi-swa-hull;
-	}
-}
-
-.ffi-swa-navigate {
-	&:before {
-		content: $ffi-swa-navigate;
-	}
-}
-
-.ffi-swa-redirect {
-	&:before {
-		content: $ffi-swa-redirect;
-	}
-}
-
-.ffi-swa-repair {
-	&:before {
-		content: $ffi-swa-repair;
-	}
-}
-
-.ffi-swa-rogue {
-	&:before {
-		content: $ffi-swa-rogue;
-	}
-}
-
-.ffi-swa-scatter {
-	&:before {
-		content: $ffi-swa-scatter;
-	}
-}
-
-.ffi-swa-shuttle {
-	&:before {
-		content: $ffi-swa-shuttle;
-	}
-}
-
-.ffi-swa-speed {
-	&:before {
-		content: $ffi-swa-speed;
-	}
-}
-
-.ffi-swa-squadron {
-	&:before {
-		content: $ffi-swa-squadron;
-	}
-}
-
-.ffi-swa-swarm {
-	&:before {
-		content: $ffi-swa-swarm;
-	}
-}
-
-.ffi-swa-turn-0 {
-	&:before {
-		content: $ffi-swa-turn-0;
-	}
-}
-
-.ffi-swa-turn-1 {
-	&:before {
-		content: $ffi-swa-turn-1;
-	}
-}
-
-.ffi-swa-turn-2 {
-	&:before {
-		content: $ffi-swa-turn-2;
+		content: unicode($ffi-swrpg-despair);
 	}
 }
 
 .ffi-swrpg-advantage {
 	&:before {
-		content: $ffi-swrpg-advantage;
+		content: unicode($ffi-swrpg-advantage);
 	}
 }
 
 .ffi-swrpg-advantage-advantage {
 	&:before {
-		content: $ffi-swrpg-advantage-advantage;
+		content: unicode($ffi-swrpg-advantage-advantage);
 	}
 }
 
 .ffi-swrpg-advantage-advantage-alternate {
 	&:before {
-		content: $ffi-swrpg-advantage-advantage-alternate;
+		content: unicode($ffi-swrpg-advantage-advantage-alternate);
 	}
 }
 
 .ffi-swrpg-advantage-success {
 	&:before {
-		content: $ffi-swrpg-advantage-success;
-	}
-}
-
-.ffi-swrpg-despair {
-	&:before {
-		content: $ffi-swrpg-despair;
+		content: unicode($ffi-swrpg-advantage-success);
 	}
 }
 
 .ffi-swrpg-failure {
 	&:before {
-		content: $ffi-swrpg-failure;
+		content: unicode($ffi-swrpg-failure);
 	}
 }
 
 .ffi-swrpg-failure-failure {
 	&:before {
-		content: $ffi-swrpg-failure-failure;
+		content: unicode($ffi-swrpg-failure-failure);
 	}
 }
 
 .ffi-swrpg-failure-threat {
 	&:before {
-		content: $ffi-swrpg-failure-threat;
+		content: unicode($ffi-swrpg-failure-threat);
 	}
 }
 
 .ffi-swrpg-force {
 	&:before {
-		content: $ffi-swrpg-force;
+		content: unicode($ffi-swrpg-force);
 	}
 }
 
 .ffi-swrpg-force-outline {
 	&:before {
-		content: $ffi-swrpg-force-outline;
+		content: unicode($ffi-swrpg-force-outline);
 	}
 }
 
 .ffi-swrpg-force-split {
 	&:before {
-		content: $ffi-swrpg-force-split;
+		content: unicode($ffi-swrpg-force-split);
 	}
 }
 
 .ffi-swrpg-success {
 	&:before {
-		content: $ffi-swrpg-success;
+		content: unicode($ffi-swrpg-success);
 	}
 }
 
 .ffi-swrpg-success-success {
 	&:before {
-		content: $ffi-swrpg-success-success;
+		content: unicode($ffi-swrpg-success-success);
 	}
 }
 
 .ffi-swrpg-threat {
 	&:before {
-		content: $ffi-swrpg-threat;
+		content: unicode($ffi-swrpg-threat);
 	}
 }
 
 .ffi-swrpg-threat-threat {
 	&:before {
-		content: $ffi-swrpg-threat-threat;
+		content: unicode($ffi-swrpg-threat-threat);
 	}
 }
 
 .ffi-swrpg-triumph {
 	&:before {
-		content: $ffi-swrpg-triumph;
+		content: unicode($ffi-swrpg-triumph);
 	}
 }
+
+.ffi-swa-accuracy {
+	&:before {
+		content: unicode($ffi-swa-accuracy);
+	}
+}
+
+.ffi-swa-anti-ship {
+	&:before {
+		content: unicode($ffi-swa-anti-ship);
+	}
+}
+
+.ffi-swa-anti-squadron {
+	&:before {
+		content: unicode($ffi-swa-anti-squadron);
+	}
+}
+
+.ffi-swa-bomber {
+	&:before {
+		content: unicode($ffi-swa-bomber);
+	}
+}
+
+.ffi-swa-brace {
+	&:before {
+		content: unicode($ffi-swa-brace);
+	}
+}
+
+.ffi-swa-concentrate {
+	&:before {
+		content: unicode($ffi-swa-concentrate);
+	}
+}
+
+.ffi-swa-contain {
+	&:before {
+		content: unicode($ffi-swa-contain);
+	}
+}
+
+.ffi-swa-counter {
+	&:before {
+		content: unicode($ffi-swa-counter);
+	}
+}
+
+.ffi-swa-crit {
+	&:before {
+		content: unicode($ffi-swa-crit);
+	}
+}
+
+.ffi-swa-d8 {
+	&:before {
+		content: unicode($ffi-swa-d8);
+	}
+}
+
+.ffi-swa-escort {
+	&:before {
+		content: unicode($ffi-swa-escort);
+	}
+}
+
+.ffi-swa-evade {
+	&:before {
+		content: unicode($ffi-swa-evade);
+	}
+}
+
+.ffi-swa-grit {
+	&:before {
+		content: unicode($ffi-swa-grit);
+	}
+}
+
+.ffi-swa-heavy {
+	&:before {
+		content: unicode($ffi-swa-heavy);
+	}
+}
+
+.ffi-swa-hit {
+	&:before {
+		content: unicode($ffi-swa-hit);
+	}
+}
+
+.ffi-swa-hull {
+	&:before {
+		content: unicode($ffi-swa-hull);
+	}
+}
+
+.ffi-swa-navigate {
+	&:before {
+		content: unicode($ffi-swa-navigate);
+	}
+}
+
+.ffi-swa-redirect {
+	&:before {
+		content: unicode($ffi-swa-redirect);
+	}
+}
+
+.ffi-swa-repair {
+	&:before {
+		content: unicode($ffi-swa-repair);
+	}
+}
+
+.ffi-swa-rogue {
+	&:before {
+		content: unicode($ffi-swa-rogue);
+	}
+}
+
+.ffi-swa-scatter {
+	&:before {
+		content: unicode($ffi-swa-scatter);
+	}
+}
+
+.ffi-swa-shuttle {
+	&:before {
+		content: unicode($ffi-swa-shuttle);
+	}
+}
+
+.ffi-swa-speed {
+	&:before {
+		content: unicode($ffi-swa-speed);
+	}
+}
+
+.ffi-swa-squadron {
+	&:before {
+		content: unicode($ffi-swa-squadron);
+	}
+}
+
+.ffi-swa-swarm {
+	&:before {
+		content: unicode($ffi-swa-swarm);
+	}
+}
+
+.ffi-swa-turn-0 {
+	&:before {
+		content: unicode($ffi-swa-turn-0);
+	}
+}
+
+.ffi-swa-turn-1 {
+	&:before {
+		content: unicode($ffi-swa-turn-1);
+	}
+}
+
+.ffi-swa-turn-2 {
+	&:before {
+		content: unicode($ffi-swa-turn-2);
+	}
+}
+
+.ffi-ia-action {
+	&:before {
+		content: unicode($ffi-ia-action);
+	}
+}
+
+.ffi-ia-block {
+	&:before {
+		content: unicode($ffi-ia-block);
+	}
+}
+
+.ffi-ia-damage {
+	&:before {
+		content: unicode($ffi-ia-damage);
+	}
+}
+
+.ffi-ia-dodge {
+	&:before {
+		content: unicode($ffi-ia-dodge);
+	}
+}
+
+.ffi-ia-evade {
+	&:before {
+		content: unicode($ffi-ia-evade);
+	}
+}
+
+.ffi-ia-insight {
+	&:before {
+		content: unicode($ffi-ia-insight);
+	}
+}
+
+.ffi-ia-melee {
+	&:before {
+		content: unicode($ffi-ia-melee);
+	}
+}
+
+.ffi-ia-strain {
+	&:before {
+		content: unicode($ffi-ia-strain);
+	}
+}
+
+.ffi-ia-strength {
+	&:before {
+		content: unicode($ffi-ia-strength);
+	}
+}
+
+.ffi-ia-surge {
+	&:before {
+		content: unicode($ffi-ia-surge);
+	}
+}
+
+.ffi-ia-tech {
+	&:before {
+		content: unicode($ffi-ia-tech);
+	}
+}
+
+.ffi-grpg-advantage {
+	&:before {
+		content: unicode($ffi-grpg-advantage);
+	}
+}
+
+.ffi-grpg-despair {
+	&:before {
+		content: unicode($ffi-grpg-despair);
+	}
+}
+
+.ffi-grpg-failure {
+	&:before {
+		content: unicode($ffi-grpg-failure);
+	}
+}
+
+.ffi-grpg-success {
+	&:before {
+		content: unicode($ffi-grpg-success);
+	}
+}
+
+.ffi-grpg-threat {
+	&:before {
+		content: unicode($ffi-grpg-threat);
+	}
+}
+
+.ffi-grpg-triumph {
+	&:before {
+		content: unicode($ffi-grpg-triumph);
+	}
+}
+
+.ffi-d6 {
+	&:before {
+		content: unicode($ffi-d6);
+	}
+}
+
+.ffi-d6-outline {
+	&:before {
+		content: unicode($ffi-d6-outline);
+	}
+}
+
+.ffi-d8 {
+	&:before {
+		content: unicode($ffi-d8);
+	}
+}
+
+.ffi-d8-outline {
+	&:before {
+		content: unicode($ffi-d8-outline);
+	}
+}
+
+.ffi-d12 {
+	&:before {
+		content: unicode($ffi-d12);
+	}
+}
+
+.ffi-d12-outline {
+	&:before {
+		content: unicode($ffi-d12-outline);
+	}
+}
+
+.ffi-imperial {
+	&:before {
+		content: unicode($ffi-imperial);
+	}
+}
+
+.ffi-mercinary {
+	&:before {
+		content: unicode($ffi-mercinary);
+	}
+}
+
+.ffi-rebel {
+	&:before {
+		content: unicode($ffi-rebel);
+	}
+}
+
