@@ -8,7 +8,7 @@ Install via npm
 
 `npm install sw-rpg-icons`
 
-Download the compiled webfont [here](https://github.com/aflegel/FantasyFlightIcons/blob/master/icons/download/sw-rpg-icons.zip?raw=true).
+Download the compiled webfont [here](https://github.com/aflegel/FantasyFlightIcons/blob/master/icons/downloads/sw-rpg-icons.zip?raw=true).
 
 ## Contribtion Guidelines
 
