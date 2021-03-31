@@ -1,0 +1,22 @@
+{
+  "name": "@boutinflegel/sw-rpg-icons",
+  "version": "2.0.0",
+  "description": "Components and webfont icons for games such as `Edge of the Empire`, `Star Wars: Armada`, or `Imperial Assault`.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aflegel/TableTop.FantasyFlightIcons.git"
+  },
+  "keywords": [
+    "icon",
+    "star-wars",
+    "fantasy-flight",
+    "edge-of-the-empire",
+    "eote"
+  ],
+  "author": "Alexander Boutin Flegek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aflegel/TableTop.FantasyFlightIcons/issues"
+  },
+  "homepage": "https://github.com/aflegel/TableTop.FantasyFlightIcons#readme"
+}
