@@ -1,0 +1,1 @@
+export { AdvantgeIcon } from "./Components/AdvantageIcon";
