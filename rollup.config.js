@@ -3,7 +3,7 @@ import external from "rollup-plugin-peer-deps-external";
 import del from "rollup-plugin-delete";
 import pkg from "./package.json";
 import typescript from "@rollup/plugin-typescript";
-import svg from "rollup-plugin-svg";
+import svg from "rollup-plugin-react-svg";
 
 const extensions = [".js", ".jsx", ".ts", ".tsx"];
 

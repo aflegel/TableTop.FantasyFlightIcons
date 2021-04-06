@@ -19,7 +19,8 @@
     "eote"
   ],
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "build-types": "npx typescript --declaration --allowJs --emitDeclarationOnly --outDir types"
   },
   "eslintConfig": {
     "parser": "@typescript-eslint/parser",
@@ -100,6 +101,6 @@
     "rollup": "^2.44.0",
     "rollup-plugin-delete": "^2.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-svg": "^2.0.0"
+    "rollup-plugin-react-svg": "^3.0.3"
   }
 }
