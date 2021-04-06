@@ -8,20 +8,20 @@ import svg from "rollup-plugin-svg";
 const extensions = [".js", ".jsx", ".ts", ".tsx"];
 
 export default {
-  input: pkg.source,
-  output: [
-    { file: pkg.main, format: "cjs" },
-    { file: pkg.module, format: "esm" },
-  ],
-  plugins: [
-    svg(),
-    typescript(),
-    external(),
-    babel({
-      exclude: "node_modules/**",
-      extensions,
-    }),
-    del({ targets: ["dist/*"] }),
-  ],
-  external: Object.keys(pkg.peerDependencies || {}),
+	input: pkg.source,
+	output: [
+		{ file: pkg.main, format: "cjs", exports: "named" },
+		{ file: pkg.module, format: "esm", exports: "named" },
+	],
+	plugins: [
+		svg(),
+		typescript(),
+		external(),
+		babel({
+			exclude: "node_modules/**",
+			extensions,
+		}),
+		del({ targets: ["dist/*"] }),
+	],
+	external: Object.keys(pkg.peerDependencies || {}),
 };

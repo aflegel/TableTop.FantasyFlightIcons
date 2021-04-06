@@ -4,6 +4,7 @@
   "description": "Components and webfont icons for games such as `Edge of the Empire`, `Star Wars: Armada`, or `Imperial Assault`.",
   "private": true,
   "main": "dist/index.cjs.js",
+  "typings": "dist/index.d.ts",
   "module": "dist/index.esm.js",
   "source": "src/index.ts",
   "repository": {
