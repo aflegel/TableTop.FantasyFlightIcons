@@ -1,4 +1,55 @@
-<svg version="2.0" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256">
-<path d="M141,1815V581h1158V311H-119v376v1128H141z M1303,1815v-388h326v-258h-326V787c-457.3,253.3-762,422.7-914,508
-	C846.3,1555,1151,1728.3,1303,1815z"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="2.0"
+   viewbox="0 0 256 256"
+   id="svg4"
+   sodipodi:docname="left-hard.svg"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2046"
+     inkscape:window-height="2054"
+     id="namedview6"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     showborder="false"
+     inkscape:zoom="1.6581654"
+     inkscape:cx="135.74535"
+     inkscape:cy="275.9619"
+     inkscape:window-x="-10"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4" />
+  <path
+     d="M 38.077803,220.26545 V 39.542334 H 207.67048 V 0 H 0 V 55.066362 220.26545 Z m 170.178487,0 v -56.8238 H 256 v -37.7849 H 208.25629 V 69.71167 c -66.97299,37.09657 -111.597251,61.90572 -133.858121,74.39817 66.973001,38.0778 111.597251,63.45812 133.858121,76.15561 z"
+     id="path2"
+     style="stroke-width:0.146453" />
 </svg>
