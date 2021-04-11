@@ -20,7 +20,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -36,7 +36,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="2604"
-     inkscape:window-height="2054"
+     inkscape:window-height="1401"
      id="namedview8"
      showgrid="false"
      inkscape:pagecheckerboard="true"
@@ -44,15 +44,12 @@
      inkscape:zoom="4.69"
      inkscape:cx="5.010661"
      inkscape:cy="109.11514"
-     inkscape:window-x="-10"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg6" />
-  <g
-     id="g4"
-     transform="translate(189,-317.4)">
-    <path
-       d="m -120.7,376.1 -9.6,-36.2 12.1,-22.5 -70.8,19.3 19.3,71.6 12.9,-22.5 z m 59.5,9.7 12.9,22.5 19.3,-71.6 -70.8,-19.3 12.9,22.5 -9.6,36.2 z m -47.6,90.8 52.3,-52.3 h -25.7 l -26.5,-26.5 -26.5,26.5 h -25.7 z"
-       id="path2" />
-  </g>
+     inkscape:current-layer="svg6"
+     inkscape:document-rotation="0" />
+  <path
+     d="M 68.3,58.7 58.7,22.5 70.8,0 0,19.3 19.3,90.9 32.2,68.4 Z m 59.5,9.7 12.9,22.5 L 160,19.3 89.2,0 102.1,22.5 92.5,58.7 Z m -47.6,90.8 52.3,-52.3 H 106.8 L 80.3,80.4 53.8,106.9 H 28.1 Z"
+     id="path2" />
 </svg>
