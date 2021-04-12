@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1508"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="separatist.svg">
+  <defs
+     id="defs1502" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="400"
+     inkscape:cy="560"
+     inkscape:document-units="mm"
+     inkscape:current-layer="svg1508"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     showborder="false"
+     inkscape:window-width="1267"
+     inkscape:window-height="1198"
+     inkscape:window-x="208"
+     inkscape:window-y="163"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata1505">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     d="M 189.08394,224.07673 256,112.03837 190.0048,0 H 67.22302 L 0,112.03837 65.688248,224.07673 Z M 86.56115,201.05515 120.01918,144.88249 h 18.11032 l 33.45804,56.17266 z M 31.002397,120.32614 h 61.697841 l 11.664272,18.72422 -32.537173,52.48921 z m 122.474823,17.18944 11.66427,-17.18944 h 62.0048 l -40.82494,71.21343 z M 31.002397,104.3645 73.669064,33.764987 104.36451,87.482012 92.700238,104.3645 Z M 153.47722,85.947236 184.17266,33.764987 227.14629,104.3645 h -62.0048 z M 86.56115,23.942445 h 85.02639 L 138.1295,80.115106 h -18.11032 z"
+     id="path88"
+     style="display:inline;stroke-width:0.306954"
+     inkscape:label="Faction Separatist" />
+</svg>
