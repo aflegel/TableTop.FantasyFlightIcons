@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg3279"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="rebel.svg">
+  <defs
+     id="defs3273" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="400"
+     inkscape:cy="560"
+     inkscape:document-units="mm"
+     inkscape:current-layer="svg3279"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     showborder="false"
+     inkscape:window-width="1267"
+     inkscape:window-height="1198"
+     inkscape:window-x="52"
+     inkscape:window-y="52"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3276">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     d="m 256,135.56574 q 0,48.79132 -37.5199,84.45838 -37.51991,35.66708 -90.3257,35.66708 -52.805786,0 -90.480094,-35.66708 Q 0,184.35706 0,135.56574 0,104.06755 18.373944,76.120629 36.747889,48.173704 67.010857,32.424608 37.674306,58.981907 37.674306,92.641741 q 0,23.469239 12.043426,41.379969 13.587456,21.3076 37.365501,21.3076 14.822677,0 22.234017,-17.60193 5.5585,-12.96985 5.5585,-29.02774 0,-17.910734 -8.64656,-32.733412 Q 96.656212,59.599518 79.9807,53.423403 L 94.494572,37.365501 Q 106.8468,44.468034 113.94934,56.51146 v -0.926417 q 0,-15.749095 -9.26418,-29.645356 L 128.1544,0 151.31484,25.939687 q -9.26418,13.896261 -9.26418,30.571773 7.10254,-12.043426 19.76358,-19.145959 l 14.20506,16.057902 q -16.67551,6.176115 -26.24849,22.542825 -8.64657,14.822678 -8.64657,32.733412 0,16.05789 5.86732,29.02774 7.41134,17.60193 21.92521,17.60193 23.77805,0 37.67431,-21.3076 11.73462,-17.91073 11.73462,-41.379969 0,-33.659834 -29.02775,-60.217133 29.95417,15.440291 48.32811,43.54162 Q 256,104.06755 256,135.56574 Z"
+     id="path78"
+     style="display:inline;stroke-width:0.308805"
+     inkscape:label="Faction Rebel" />
+</svg>
