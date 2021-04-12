@@ -20,7 +20,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -44,11 +44,13 @@
      inkscape:zoom="3.4733333"
      inkscape:cx="11.804223"
      inkscape:cy="109.54894"
-     inkscape:window-x="-7"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg3" />
+     inkscape:current-layer="svg3"
+     inkscape:document-rotation="0" />
   <path
      id="XMLID_4_"
-     d="M 37.8,160 V 0 C 27.4,0 18.6,3.7 11.1,11 3.7,18.4 0,27.3 0,37.8 V 160 Z m 62,0 V 0 C 89.4,0 80.6,3.7 73.1,11 65.7,18.4 62,27.3 62,37.8 V 160 Z" />
+     d="M 60.48,0 V 256 C 43.84,256 29.76,250.08 17.76,238.4 5.92,226.56 0,212.32 0,195.52 V 0 Z m 99.2,0 v 256 c -16.64,0 -30.72,-5.92 -42.72,-17.6 C 105.12,226.56 99.2,212.32 99.2,195.52 V 0 Z"
+     style="stroke-width:1.6" />
 </svg>
