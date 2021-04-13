@@ -11,7 +11,7 @@
    viewbox="0 0 256 256"
    id="svg6"
    sodipodi:docname="block.svg"
-   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
+   inkscape:version="1.0.2 (e86c8708, 2021-01-15)">
   <metadata
      id="metadata12">
     <rdf:RDF>
@@ -20,7 +20,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -36,7 +36,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="2046"
-     inkscape:window-height="2054"
+     inkscape:window-height="1387"
      id="namedview8"
      showgrid="false"
      inkscape:pagecheckerboard="true"
@@ -45,14 +45,12 @@
      inkscape:cx="64.712154"
      inkscape:cy="134.70149"
      inkscape:window-x="-10"
-     inkscape:window-y="0"
+     inkscape:window-y="25"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg6" />
-  <g
-     id="g4"
-     transform="matrix(1.6,0,0,1.6,302.4,-524.48)">
-    <path
-       d="m -189,327.8 c 53.6,22.4 106.4,22.4 160,0 -45.6,35.2 -72.8,81.6 -80,138.4 -8,-56.8 -34.4,-103.2 -80,-138.4 z"
-       id="path2" />
-  </g>
+     inkscape:current-layer="svg6"
+     inkscape:document-rotation="0" />
+  <path
+     d="M 0,0 C 85.76,35.84 170.24,35.84 256,0 183.04,56.32 139.52,130.56 128,221.44 115.2,130.56 72.96,56.32 0,0 Z"
+     id="path2"
+     style="stroke-width:1.6" />
 </svg>
